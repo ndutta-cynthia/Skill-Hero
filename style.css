@@ -7,25 +7,29 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-.links nav{
-display: flex;
-flex-direction: row;
-margin-left: -80%;
-
+.links nav {
+  display: flex;
+  flex-direction: row;
+  margin-left: -80%;
 }
-.links ul{
+.links ul {
   display: flex;
   flex-direction: row;
   list-style-type: none;
   gap: 50%;
   margin-right: 40%;
-
 }
 .color {
   color: #df314e;
 }
+.login-join-now-buttons{
+  display: flex;
+  flex-direction: row;
+}
 .landing-page {
   font-size: x-large;
+  display: flex;
+  flex-direction: row;
 }
 
 .join-button button {
@@ -60,7 +64,7 @@ margin-left: -80%;
   position: absolute;
   border-radius: 20px;
   margin-top: -45px;
-  margin-left: 27%;
+  margin-left: 25%;
   height: 46px;
 }
 .input input {
@@ -121,18 +125,19 @@ margin-left: -80%;
     justify-content: space-around;
     align-items: center;
   }
-  .links nav{
-  display: flex;
-  flex-wrap: wrap;
-  
+  .links nav {
+    display: flex;
+    flex-wrap: wrap;
   }
-  .links ul{
+  .login-join-now-buttons {
+    gap: 5%;
+  }
+  .links ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     list-style-type: none;
-    margin-right: 40%;
-  
+    margin-right: 30%;
   }
   .color {
     color: #df314e;
@@ -140,12 +145,12 @@ margin-left: -80%;
   .landing-page {
     font-size: x-large;
   }
-  
+
   .join-button button {
     background-color: #df314e;
     border-radius: 20%;
     color: white;
-    margin-left: 80px;
+    margin-left: 10px;
   }
   .login-button {
     border-radius: 20%;
@@ -234,6 +239,7 @@ margin-left: -80%;
   .navbar {
     flex-wrap: wrap;
     align-items: center;
+    gap: 0%;
   }
   .color {
     color: #df314e;
@@ -247,20 +253,27 @@ margin-left: -80%;
   .upgrade {
     color: #233860;
   }
+  .links ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 50%;
+    margin-right: 40%;
+  }
   .explore-now button {
     margin-top: -42px;
-    margin-left: 53%;
+    margin-left: 65%;
     height: 36px;
     width: 60px;
   }
   .input input {
     border-radius: 20px;
     position: relative;
-    width: 250px;
+    width: 300px;
     height: 40px;
   }
   .landing-page-photo img {
-    width: 100%;
+    width: 90%;
     height: 90%;
     margin-left: 0%;
   }
@@ -272,7 +285,7 @@ margin-left: -80%;
   .money-back {
     margin-left: 30px;
   }
-  .upgrade {
+  .landing-page {
     display: flex;
     flex-wrap: wrap;
     gap: 20%;

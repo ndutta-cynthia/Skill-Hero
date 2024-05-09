@@ -15,32 +15,6 @@
   </head>
   <body>
 
-    <div class="pt-2 pb-2 border-bottom">
-      <a class="icon pl-2 pr-2 p-1
-          float-right" href="#hamburger-icon"
-          onclick="gfgMenu()">
-          <i class="fa fa-bars"></i>
-      </a>
-      <a class="pt-2 pb-2 text-success
-          text-decoration-none font-weight
-                  -bold" href="#Home">
-      </a>
-  </div>
-    <div class="links nav flex-column d-none">
-      <a class="nav-link border-bottom"
-        href="#gfg1"> Home </a>
-      <a class="nav-link border-bottom"
-        href="#gfg2"> Programs </a>
-      <a class="nav-link border-bottom"
-        href="#gfg3"> AboutUs </a>
-      <a class="nav-link border-bottom"
-        href="#gfg5"> Contact </a>
-        <a class="nav-link border-bottom"
-        href="#gfg5"> <button class="login">Login</button> </a>
-        <a class="nav-link border-bottom"
-        href="#gfg5"> <button class="login"><button class="joinnow">Join Now</button></button> </a>
-    </div>
-
     <div class="navbar">
       <div class="logo">
         <div>
@@ -73,8 +47,7 @@
         <a class="explore">Contact</a>
       </li>
     </ul>
-  
-
+    <div class="login-join-now-buttons">
       <div>
         <button class="login-button">Login</button>
       </div>
@@ -82,16 +55,13 @@
       <div class="join-button">
         <button>Join Now</button>
       </div>
+      </div>
     </nav>
     </div>
     </div>
-
-
-   
-
-    <div class="upgrade">
+    <div class="landing-page">
       <div>
-        <div class="landing-page">
+        <div class="eplore-your-skills">
           <h1>
             <p>Upgrade Your</p>
             <p>Skills Up To</p>
@@ -145,16 +115,6 @@
       </div>
     </div>
 
-    <script>
-      function gfgMenu() {
-               const GFG = document.querySelector('.links');
-               if (GFG.classList.contains('d-none')) {
-                   GFG.classList.remove('d-none');
-               }
-               else {
-                   GFG.classList.add('d-none');
-               }
-           }
-   </script>
+   
   </body>
 </html>
